@@ -1,0 +1,114 @@
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #353535;
+    padding: 10px;
+    align-items: center;       
+    }
+.div{
+ width: 10%;
+ height: 80px;
+ margin: 10px;
+ font-size: 60px;
+ text-align: center;
+ color: white;
+  } 
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+.contimg{
+ height: 300px;
+ width: 100%;
+ display: flex;
+ background-image: url(img/contact-bg.jpg);
+ justify-content: space-between;
+ align-items: center;
+  } 
+.subcontimg{
+ height: 300px;
+ width: 700px;
+ display:flex;
+ align-items:center; 
+ justify-content: space-around;
+  }   
+.contact{
+ height: 100px;
+ width: 400px;
+ margin-top: -50px;
+ color: white;
+ font-size: 80px;
+ display: flex;
+ align-items: center;
+ justify-content: flex-start; 
+ flex-direction: column;
+  }   
+.hotelinfo{
+     height: 650px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+      
+     }
+.form{
+     height: 450px;
+     margin: 50px;
+     padding: 50px;
+     margin-right: 120px;
+    border:  2px solid #ae9548;
+}  
+.name{
+    border-bottom: 1px solid;
+    border-bottom-color:  black;
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
+    width: 400px;
+    height: 50px;
+    }
+.input{
+       outline: none;
+       border: none;
+       background-color: white;
+       width: 400px;
+       }    
+ .icon{
+    margin: 10px;
+    height: 18px;
+    width: 18px;
+ }     
+ .submail{
+    border-bottom: 1px solid;
+    border-bottom-color:  black;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 10px;
+    width: 170px;
+    height: 50px;
+      } 
+  .email{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        width: 400px;
+        height: 50px;
+  }    
+  .input1{
+    outline: none;
+    border: none;
+    background-color: white;
+    width: 100px;
+  }
+  .icon1{
+    margin: 10px;
+    height: 16px;
+    width: 18px;
+ }     
+ .icon2{
+    margin: 10px;
+    height: 27px;
+    width: 15px;
+ }     

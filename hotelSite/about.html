@@ -1,0 +1,191 @@
+<html>
+
+<head>
+    <link href="about.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        ul#menu li {
+            display: inline;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: yellowgreen;
+            font-size: 20px;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <!--HEADER-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"
+        style="height: 120px; font-size: 22px; font-family: Georgia, 'Times New Roman', Times, serif;">
+        <a class="navbar-brand" href="index.html"><img src="img/hotel.png" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="rooms.html">Rooms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+
+            <div style="display: flex; align-content: center; justify-content: center;">
+                <img src="img/placeholder.png" style="height: 60%;">
+                <div>
+                    <h1
+                        style="align-content:flex-end; font-size: 16px; color: white; font-family:Arial, Helvetica, sans-serif; margin-right: 100px; margin-left: 10px;">
+                        1525 Boring Lane, Los </h1>
+
+                    <h1
+                        style="align-content:flex-end; font-size: 16px; color: white; font-family:Arial, Helvetica, sans-serif; margin-left: 11px">
+                        Angeles, CA</h1>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--header ends-->
+
+
+    <div class="about">
+        <div class="subabout">
+            <div style="height: 100px;width: 100px;"><a href="index.html"
+                    style="font-size: 40px;margin: 30px; color: white;" onmousemove="this.style.color='yellowgreen'; "
+                    onmouseleave="this.style.color='white'">Home</a></div>
+            <div class="div1">About</div>
+        </div>
+        <div style="height:100px;width: 200px;"><a href="rooms.html" style="font-size: 40px; color: white;"
+                onmousemove="this.style.color='yellowgreen'; " onmouseleave="this.style.color='white'">Rooms</a></a>
+        </div>
+    </div>
+    <div style="margin-top: 100px;width: 100%;height: 100px;">
+        <h2 style="text-align: center;font-size: 48px;font-weight: 400;">"Customers may forget what you said but they
+            <br> will never forget how you made them feel”.</h2>
+    </div>
+    <div class="subabout" style="width: 100%;">
+        <div style="width: 40%;padding: 10px;height: 280px;margin-left: 50px;">
+            <h4 style="font-weight: 200;font-size: 24;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna fermentum
+                ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci. Suspendisse
+                maximus malesuada</h4>
+        </div>
+        <div style="width: 40%;padding: 10px;height: 280px;">
+            <h4 style="font-weight: 200;font-size: 24;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                at vulputate est. Donec tempor felis at nibh eleifend malesuada. Nullam suscipit lobortis aliquam.
+                Phasellus lobortis ante lorem, vitae sclerisque lacus tempus sed. Phasellus rutrum magna</h4>
+        </div>
+    </div>
+    <a href="roomvid.mp4">
+        <div class="video"></div>
+    </a>
+    <div class="gallery">
+        <div class="galleryhead"><br><br><br>Hotel gallery
+            <div style="height: 150px;width: 100%;">
+                <p style="font-size: 24px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero
+                    mauris, bibendum eget sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare.
+                    Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci.</p>
+            </div>
+            <a href="#">
+                <div style="height: 60px;width: 205px;margin-top: 50px;background-image: url(img/viewgallery.jpg);">
+                </div>
+            </a>
+        </div>
+        <div class="galleryhead">
+            <div class="images">
+                <div class="subimage" style="background-image: url(img/gallery-1.jpg);"></div>
+                <div class="subimage" style="background-image: url(img/gallery-2.jpg);"></div>
+            </div>
+            <div class="images">
+                <div class="subimage" style="background-image: url(img/gallery-3.jpg);"></div>
+                <div class="subimage" style="background-image: url(img/gallery-4.jpg);"></div>
+            </div>
+        </div>
+    </div>
+    <div style="width: 40pxpx;height: 100px;margin: 50px;font-size: 48px;font-weight: 400;">Our staff</div>
+    <div class="gallery" style="height: 500px;">
+        <div class="staff" style="background-image: url(img/staff-1.jpg);"></div>
+        <div class="staff" style="background-image: url(img/staff-2.jpg);"></div>
+        <div class="staff" style="background-image: url(img/staff-3.jpg);"></div>
+    </div>
+    <div class="gallery" style="height: 100px;;margin-top: -50px;">
+        <div class="staff" style="height: 90px;">SARAH DOE<p style="color: black;margin-top: -5px;">hotel manager</p>
+        </div>
+        <div class="staff" style="height: 90px;">JESSICA DOE<p style="color: black;margin-top: -5px;">RECEPTION MANAGER
+            </p>
+        </div>
+        <div class="staff" style="height: 90px;">ROBERT DOE<p style="color: blacK;margin-top: -5px;">IT</p>
+        </div>
+    </div>
+    <!--FOOTER-->
+
+    <div style="background-color: #212529; height: 350px; width: 100%; margin-bottom: 0px;">
+
+        <img src="img/hotel.png" style="margin-left: 200px; margin-top: 50px;" />
+
+        <div
+            style="display: flex; justify-content: space-between; align-items: center; margin-top: 60px; margin-left: 200px; margin-right: 300px;">
+            <div>
+                <p style="color: #ae9548;">Location</p>
+                <p style="color: white;">1525 Boring Lane, Los Angeles, CA</p>
+            </div>
+
+            <div>
+                <p style="color: #ae9548;">Reception</p>
+                <p style="color: white;">+1 (603)535-4592</p>
+            </div>
+
+            <div>
+                <p style="color: #ae9548;">Restaurant</p>
+                <p style="color: white;">+1 (603)535-4592</p>
+            </div>
+
+            <div>
+                <p style="color: #ae9548;">Shuttle Service</p>
+                <p style="color: white;">+1 (603)535-4592</p>
+            </div>
+
+        </div>
+
+        <hr style="background-color:#ae9548 ;" />
+
+        <div
+            style="display: flex; align-items: center; justify-content: space-between; margin-left: 200px; margin-right: 300px; margin-top: 40px;">
+            <p style="color: white;">Copyright ©2019 All rights reserved</p>
+            <a href="" style="color: white; margin-left: 500px;">Privacy Policy</a>
+            <a href="" style="color: white;">Photo Request</a>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

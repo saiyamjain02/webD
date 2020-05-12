@@ -1,0 +1,87 @@
+.header{
+       width: 100%;
+       height: 100px;
+       display: flex;
+       background-color: #353535;
+       padding: 10px;
+       align-items: center;       
+       }
+.hotel{
+    width: 10%;
+    height: 80px;
+    margin: 10px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+     } 
+.about{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    background-image: url(img/about-us-bg.jpg);
+    justify-content: space-between;
+    align-items: center;
+     } 
+.subabout{
+    height: 300px;
+    width: 700px;
+    display:flex;
+    align-items:center; 
+    justify-content: space-around;
+     }   
+.div1{
+    height: 100px;
+    width: 400px;
+    margin-top: -50px;
+    color: white;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    flex-direction: column;
+     } 
+     *{
+          margin: 0px;
+          padding: 0px;
+     }   
+.video{
+     height: 581px;
+     width: 1329;
+     background-image: url(img/video.jpg);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     }        
+.gallery{
+     height: 650px;
+     width: 100%;
+     margin: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+      }
+.galleryhead{
+      height: 650px;
+      width: 40%px;
+      margin: 20px;
+      color: black;
+      font-size: 48px;
+      }      
+.images{
+       height: 300px;
+       width: 100%;
+       display: flex;
+       margin: 15px;
+     }
+.subimage{
+     height: 265px;
+     width: 265px;
+     margin: 15px;
+     }    
+.staff{
+     height: 438;
+     width: 362;
+     margin: 20px;
+     color: #ae9548;
+     font-size: 24px;
+}  

@@ -1,0 +1,298 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <style>
+        .parallax {
+            /* The image used */
+            background-image: url("img/slider-1.jpg");
+
+            /* Set a specific height */
+            height: 100vh;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--HEADER-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"
+        style="height: 120px; font-size: 22px; font-family: Georgia, 'Times New Roman', Times, serif;">
+        <a class="navbar-brand" href="index.html"><img src="img/hotel.png" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="rooms.html">Rooms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+
+            <div style="display: flex; align-content: center; justify-content: center;">
+                <img src="img/placeholder.png" style="height: 60%;">
+                <div>
+                    <h1
+                        style="align-content:flex-end; font-size: 16px; color: white; font-family:Arial, Helvetica, sans-serif; margin-right: 100px; margin-left: 10px;">
+                        1525 Boring Lane, Los </h1>
+
+                    <h1
+                        style="align-content:flex-end; font-size: 16px; color: white; font-family:Arial, Helvetica, sans-serif; margin-left: 11px">
+                        Angeles, CA</h1>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--MAIN IMAGE AND CARDS-->
+
+    <div class="parallax">
+        <h1
+            style="font-size: 100px; color: white; font-family: Georgia, 'Times New Roman', Times, serif; padding-top: 228px; margin-left: 200px; padding-right: 200px;">
+            We hope you'll enjoy
+            your stay.</h1>
+    </div>
+
+    <!--3 CAROUSEL AND FORM-->
+
+    <div
+        style="display: flex; justify-content: space-around; align-items: center; margin-top: 100px; margin-bottom: 100px; margin-left: 180px; margin-right: 180px;">
+
+        <div class="card" style="width: 30rem; border-radius: 0px; box-shadow: 0px 0px 40px 40px rgb(241, 241, 241);">
+            <img src="img/room-1.jpg" class="card-img-top" alt="..." style="border-radius: 0px;">
+            <div class="card-body">
+                <div style="display: flex; align-content: center; justify-content: space-between;">
+                    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Junior Suite</h1>
+                    <h2 style="margin-top: 5px; font-family: Georgia, 'Times New Roman', Times, serif;">$400</h2>
+                </div>
+                <div style="display: flex; align-content: center; justify-content: space-between; padding-top: 30px;">
+                    <div>
+                        <img src="img/tv.png" alt="">
+                        <h6 style="text-align: center;">Smart TV</h6>
+                    </div>
+
+                    <div>
+                        <img src="img/air-conditioner.png" alt="">
+                        <h6 style="text-align: center;">AC Rooms</h6>
+                    </div>
+
+                    <div>
+                        <img src="img/pool.png" alt="">
+                        <h6 style="text-align: center;">Pools</h6>
+                    </div>
+
+                    <div>
+                        <img src="img/wifi.png" alt="">
+                        <h6 style="text-align: center;">Wifi</h6>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div style="border: 3px solid #AE9548; padding: 107px; margin-left: 10px;">
+            <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Check Availability </h1>
+
+            <div class="form-group">
+                <label for="exampleInputEmail1" style="margin-top: 10px;">Check-in</label>
+                <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter date" style="border-radius: 0px;">
+
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Number of Rooms</label>
+                <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Enter number"
+                    style="border-radius: 0px;">
+            </div>
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                    style="background: white; color: black; width: 100%; border-radius: 0px;">
+                    Room Type
+                </button>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Single Room</a>
+                    <a class="dropdown-item" href="#">Double Room</a>
+                    <a class="dropdown-item" href="#">Special Suite</a>
+                    <a class="dropdown-item" href="#">Deluxe Suite</a>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-light"
+                style="background: #353535; border-radius: 0px; color: white; width: 100%; margin-top: 10px; font-family: Georgia, 'Times New Roman', Times, serif; ">CHECK
+                NOW</button>
+        </div>
+
+    </div>
+
+    </div>
+
+    <!--TEXT PART-->
+
+    <div>
+        <h1
+            style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; padding-left: 320px; padding-right: 320px; font-size: 50px;">
+            “Customers may forget what you said </h1>
+        <h1
+            style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; padding-left: 250px; padding-right: 250px; font-size: 50px;">
+            but they will never forget how you made</h1>
+        <h1
+            style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; padding-left: 250px; padding-right: 250px; font-size: 50px;">
+            them feel”.</h1>
+
+        <br><br />
+    </div>
+
+    <div style="display: flex; align-items: center; justify-content: space-around;">
+
+        <p style="padding-left: 200px; padding-bottom: 100px; font-size: 18px;">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Vivamus libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum. Donec nec sapien in
+            urna fermentum ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci.
+            Suspendisse maximus malesuada</p>
+        <p style="padding-left: 20px; padding-right: 200px; padding-bottom: 100px; font-size: 18px;">Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit. Morbi at vulputate est. Donec tempor felis at nibh eleifend
+            malesuada. Nullam suscipit lobortis aliquam. Phasellus lobortis ante lorem, vitae scelerisque lacus tempus
+            sed. Phasellus rutrum magna</p>
+
+    </div>
+
+    <!--FACILITIES-->
+
+    <div style="background-color: rgb(243, 243, 243); margin-bottom: 100px;">
+        <h1
+            style="padding-left: 200px; padding-top: 80px; padding-bottom: 80px; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 70px;">
+            Facilities</h1>
+
+        <!--cards-->
+
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <img src="img/facilities-1.jpg" alt="">
+
+            <div style="background-color: white; height: 573px; width: 570px;">
+                <h1
+                    style="margin-left: 90px; margin-top: 180px; font-size: 40px; font-family: Georgia, 'Times New Roman', Times, serif;">
+                    Wellness Center</h1>
+                <p style="margin-left: 90px; margin-top: 30px; margin-right: 80px; font-size: 20px;">Lorem ipsum dolor
+                    sit amet, consectetur adipis-cing elit. Mauris tincidunt consectetur turpis, eget consequat.</p>
+                <button type="button" class="btn btn-light"
+                    style="background: white; border: 2px solid #AE954B; color: black; width: 100%; margin-left: 90px; width: 180px; margin-top: 10px; border-radius: 0px; ">VISIT
+                    CENTER</button>
+
+            </div>
+
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: center; padding-bottom: 100px;">
+
+            <div style="background-color: white; height: 573px; width: 570px;">
+                <h1
+                    style="margin-left: 90px; margin-top: 180px; font-size: 40px; font-family: Georgia, 'Times New Roman', Times, serif;">
+                    Wellness Center</h1>
+                <p style="margin-left: 90px; margin-top: 30px; margin-right: 80px; font-size: 20px;">Lorem ipsum dolor
+                    sit amet, consectetur adipis-cing elit. Mauris tincidunt consectetur turpis, eget consequat.</p>
+                <button type="button" class="btn btn-light"
+                    style="background: white; border: 2px solid #AE954B; color: black; width: 100%; margin-left: 90px; width: 180px; margin-top: 10px; border-radius: 0px; ">VISIT
+                    CENTER</button>
+
+            </div>
+
+            <img src="img/facilities-2.jpg" alt="">
+
+        </div>
+
+        <div style="background-color: white;">
+            <h1
+                style="padding-top: 60px; padding-bottom: 60px; margin-left: 200px; font-family: Georgia, 'Times New Roman', Times, serif;">
+                Follow us on Instagram @yourhotel</h1>
+
+            <div style="display: flex; align-items: center; justify-content: center;">
+
+                <img src="img/1.jpg" style="width: 25%;" />
+                <img src="img/2.jpg" style="width: 25%;" />
+                <img src="img/3.jpg" style="width: 25%;" />
+                <img src="img/4.jpg" style="width: 25%;" />
+
+            </div>
+
+        </div>
+
+        <!--FOOTER-->
+
+        <div style="background-color: #212529; height: 350px; width: 100%; margin-bottom: 0px;">
+
+            <img src="img/hotel.png" style="margin-left: 200px; margin-top: 50px;" />
+
+            <div
+                style="display: flex; justify-content: space-between; align-items: center; margin-top: 60px; margin-left: 200px; margin-right: 300px;">
+                <div>
+                    <p style="color: #ae9548;">Location</p>
+                    <p style="color: white;">1525 Boring Lane, Los Angeles, CA</p>
+                </div>
+
+                <div>
+                    <p style="color: #ae9548;">Reception</p>
+                    <p style="color: white;">+1 (603)535-4592</p>
+                </div>
+
+                <div>
+                    <p style="color: #ae9548;">Restaurant</p>
+                    <p style="color: white;">+1 (603)535-4592</p>
+                </div>
+
+                <div>
+                    <p style="color: #ae9548;">Shuttle Service</p>
+                    <p style="color: white;">+1 (603)535-4592</p>
+                </div>
+
+            </div>
+
+            <hr style="background-color:#ae9548 ;" />
+
+            <div
+                style="display: flex; align-items: center; justify-content: space-between; margin-left: 200px; margin-right: 300px; margin-top: 40px;">
+                <p style="color: white;">Copyright ©2019 All rights reserved</p>
+                <a href="" style="color: white; margin-left: 500px;">Privacy Policy</a>
+                <a href="" style="color: white;">Photo Request</a>
+
+            </div>
+
+        </div>
+
+</body>
+
+</html>
