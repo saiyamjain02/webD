@@ -1,3 +1,3 @@
-# Project 0
+Project using HTML,CSS,BOOTSTRAP and JAVASCRIPT
 
-Web Programming with Python and JavaScript
+Open index.html to run the project
